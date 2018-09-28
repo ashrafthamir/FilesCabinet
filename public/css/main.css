@@ -1,0 +1,51 @@
+html, body {
+    background-color:#f5f8fa;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+header {
+    padding-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.file-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-name:hover {
+    white-space: normal;
+}
+
+.stream-button {
+    background:none;
+    border:none; 
+    padding-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stream-button:hover {
+    white-space: normal;
+}
+
+/* Bootstrap edit */
+.navbar-brand{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+/* End Bootstrap edit */
